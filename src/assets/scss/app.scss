@@ -1,0 +1,141 @@
+@import 'settings';
+@import 'foundation-emails';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+table.main-container {
+  box-shadow: 1px 1px 5px 3px #e5e5e5;
+}
+
+p.plan-details {
+  line-height: 1.8
+}
+
+td {
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #ffa400;
+}
+
+// <br class="mobile-hardbreak">
+
+h1,
+h2,
+h3 {
+  color: #0092a7;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dark-blue {
+  color: #0092a7;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.purchase-details {
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.message-body a {
+  text-decoration: underline;
+}
+
+a.telephone {
+  color: #737373;
+}
+
+.your-plan-details-icon {
+  width: 50%;
+}
+
+.show-column {
+  background: #e5e5e5;
+}
+
+table.button table td a {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table.button table td {
+  text-align: center !important;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.footer {
+  color: #737373;
+}
+
+.footer a {
+  font-size: 14px;
+}
+
+.footer p, .footer a {
+  font-size: 11px;
+}
+
+.footer .spacer {
+  display: inline-block;
+  width: 20px;
+}
+
+.mobile-hardbreak {
+  display: inline-block;
+  width: 10px;
+}
+
+.desktop-expanded-banner {
+  // background: orange;
+  // height: 390px;
+}
+
+@media only screen and (max-width: 670px) {
+  table.body .columns {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  img.your-plan-details-icon {
+    width: 250px !important;
+  }
+
+  .purchase-details {
+    border-left: none;
+    border-right: none;
+    padding: 15px 0;
+  }
+
+  .mobile-hardbreak {
+    display: block;
+    height: 10px;
+  }
+
+  .your-plan-details {
+    border: 1px solid #cccccc;
+    padding: 20px;
+  }
+}
