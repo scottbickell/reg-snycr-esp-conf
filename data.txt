@@ -1,0 +1,33 @@
+Email
+Opt In Date
+Opted Out
+Opt In Details
+Email Type
+Opted Out Date
+Opt Out Details
+First_Name
+Last_Name
+Send Hour
+activation_date
+brand
+model
+offer_expiration_date
+order_amount
+order_date
+order_id
+order_name
+order_sku
+order_status
+product_family
+product_name
+purchase_date
+purchased_at
+registration_date
+registration_id
+serial_number
+service_plan_name
+source
+token
+user_id
+warranty_end_date
+warranty_start_date
